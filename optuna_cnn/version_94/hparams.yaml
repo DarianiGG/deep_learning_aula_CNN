@@ -1,0 +1,22 @@
+activation: silu
+batch_norm: true
+dropout_rate: 0.25687890327644686
+fc_list:
+- 48
+- 56
+kernel_size: 3
+list_size:
+- 24
+- 48
+- 48
+num_classes: 10
+optimizer_type: adam
+pool_type: avg
+scheduler_param:
+  epochs: 40
+  max_lr: 0.031154819395329533
+  steps_per_epoch: 200
+scheduler_type: onecycle
+taxa: 0.001592489223095511
+weight_decay: 0.005293198297165276
+weight_decay_ter: false

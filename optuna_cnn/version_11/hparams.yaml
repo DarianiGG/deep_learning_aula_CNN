@@ -1,0 +1,19 @@
+activation: relu
+batch_norm: true
+dropout_rate: 0.4634867719876119
+fc_list:
+- 48
+kernel_size: 5
+list_size:
+- 40
+- 56
+- 48
+num_classes: 10
+optimizer_type: adamw
+pool_type: max
+scheduler_param:
+  gamma: 0.4958236571615832
+scheduler_type: exponential
+taxa: 0.00450635303726969
+weight_decay: 0.0027854559278211377
+weight_decay_ter: true

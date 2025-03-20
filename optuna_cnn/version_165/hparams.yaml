@@ -1,0 +1,20 @@
+activation: leaky_relu
+batch_norm: true
+dropout_rate: 0.2627205342503046
+fc_list:
+- 64
+- 64
+kernel_size: 4
+list_size:
+- 24
+- 56
+- 40
+num_classes: 10
+optimizer_type: adam
+pool_type: avg
+scheduler_param:
+  gamma: 0.3825627765942586
+scheduler_type: exponential
+taxa: 0.0011302797592790733
+weight_decay: 0.007067298086845912
+weight_decay_ter: false
